@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/id_cl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/id_iv"
+        android:src="@mipmap/icon_fan"
+        android:padding="10dp"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+
+        android:layout_marginStart="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/id_fab_b"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginEnd="32dp"-->
+        <!--android:layout_marginBottom="72dp"-->
+        <!--android:backgroundTint="#ffffffff"-->
+        <!--android:src="@mipmap/icon_fan"-->
+        <!--app:fabSize="mini"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"/>-->
+
+    <!--<com.toly1994.analyzer.analyze.AnalyzeView-->
+        <!--android:id="@+id/id_av"-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</com.toly1994.analyzer.analyze.AnalyzeView>-->
+
+</android.support.constraint.ConstraintLayout>

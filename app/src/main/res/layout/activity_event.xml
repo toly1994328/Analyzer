@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.toly1994.analyzer.widget.TestViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:background="#5597FFFA">
+
+    <com.toly1994.analyzer.widget.TestView
+        android:id="@+id/view"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#23F627"/>
+
+    <com.toly1994.analyzer.widget.TestView
+        android:id="@+id/view2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#f34627"/>
+
+
+</com.toly1994.analyzer.widget.TestViewGroup>
